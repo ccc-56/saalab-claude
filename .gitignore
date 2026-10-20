@@ -1,0 +1,12 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Claude Code 本地配置
+.claude/
+
+# 环境变量/密钥
+*.env
+claude_code_env.sh.bak
